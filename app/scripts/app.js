@@ -10,12 +10,13 @@
  */
 angular
   .module('mytodoApp', [
-    'ngAnimate',
-    'ngCookies',
-    'ngResource',
-    'ngRoute',
-    'ngSanitize',
-    'ngTouch'
+        'ngAnimate',
+        'ngCookies',
+        'ngResource',
+        'ngRoute',
+        'ngSanitize',
+        'ngTouch',
+        'ui.sortable'
   ])
   .config(function ($routeProvider) {
     $routeProvider
